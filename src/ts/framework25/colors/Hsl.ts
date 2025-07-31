@@ -17,7 +17,7 @@ export class Hsl {
     }
 
     set lightness(value: number) {
-        if (value >= 0 && value <= 100) {
+        if (value >= 0 && value <= 255) {
             this._lightness = value;
         } else {
             this._lightness = 0;

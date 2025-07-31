@@ -18,6 +18,5 @@ export class Circle extends Shape {
         this.ctx.arc(this.position.x, this.position.y, this.radius, 0, Math.PI * 2);
         this.ctx.fill();
         this.ctx.restore();
-
     }
 }
